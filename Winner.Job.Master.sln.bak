@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Interface", "Winner.Job.Master.Interface\Winner.Job.Master.Interface.csproj", "{A86C67C4-30DA-4E57-B104-A0A68C67995B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Entites", "Winner.Job.Master.Entites\Winner.Job.Master.Entites.csproj", "{8A3ACE15-596C-43B2-B84C-FA21DE2E0AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Facade", "Winner.Job.Master.Facade\Winner.Job.Master.Facade.csproj", "{80498057-8436-46F2-B276-276B700D0020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.DataAccess", "Winner.Job.Master.DataAccess\Winner.Job.Master.DataAccess.csproj", "{7ECA0E1C-1DC2-472C-A5A8-9A14F2E35E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.WinService", "Winner.Job.Master.WinService\Winner.Job.Master.WinService.csproj", "{908A55D8-1DC9-410A-9E15-2F96926C6786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Simulator", "Winner.Job.Master.Simulator\Winner.Job.Master.Simulator.csproj", "{2928B856-8136-40D1-BA16-B0C4D9BC7F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Remoting", "Winner.Job.Master.Remoting\Winner.Job.Master.Remoting.csproj", "{62495F9B-5554-482F-BC3B-F0D6DB4BDF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winner.Job.Master.Test", "Winner.Job.Master.Test\Winner.Job.Master.Test.csproj", "{D54431C3-8398-486B-9C34-461A626A127E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://121.199.32.88:8080/tfs/winner
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Winner.Job.Master.DataAccess\\Winner.Job.Master.DataAccess.csproj
+		SccProjectName1 = Winner.Job.Master.DataAccess
+		SccLocalPath1 = Winner.Job.Master.DataAccess
+		SccProjectUniqueName2 = Winner.Job.Master.Entites\\Winner.Job.Master.Entites.csproj
+		SccProjectName2 = Winner.Job.Master.Entites
+		SccLocalPath2 = Winner.Job.Master.Entites
+		SccProjectUniqueName3 = Winner.Job.Master.Facade\\Winner.Job.Master.Facade.csproj
+		SccProjectName3 = Winner.Job.Master.Facade
+		SccLocalPath3 = Winner.Job.Master.Facade
+		SccProjectUniqueName4 = Winner.Job.Master.Interface\\Winner.Job.Master.Interface.csproj
+		SccProjectName4 = Winner.Job.Master.Interface
+		SccLocalPath4 = Winner.Job.Master.Interface
+		SccProjectUniqueName5 = Winner.Job.Master.Simulator\\Winner.Job.Master.Simulator.csproj
+		SccProjectName5 = Winner.Job.Master.Simulator
+		SccLocalPath5 = Winner.Job.Master.Simulator
+		SccProjectUniqueName6 = Winner.Job.Master.WinService\\Winner.Job.Master.WinService.csproj
+		SccProjectName6 = Winner.Job.Master.WinService
+		SccLocalPath6 = Winner.Job.Master.WinService
+		SccProjectUniqueName7 = Winner.Job.Master.Remoting\\Winner.Job.Master.Remoting.csproj
+		SccProjectName7 = Winner.Job.Master.Remoting
+		SccLocalPath7 = Winner.Job.Master.Remoting
+		SccProjectUniqueName8 = Winner.Job.Master.Test\\Winner.Job.Master.Test.csproj
+		SccProjectName8 = Winner.Job.Master.Test
+		SccLocalPath8 = Winner.Job.Master.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86C67C4-30DA-4E57-B104-A0A68C67995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86C67C4-30DA-4E57-B104-A0A68C67995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86C67C4-30DA-4E57-B104-A0A68C67995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86C67C4-30DA-4E57-B104-A0A68C67995B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3ACE15-596C-43B2-B84C-FA21DE2E0AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3ACE15-596C-43B2-B84C-FA21DE2E0AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3ACE15-596C-43B2-B84C-FA21DE2E0AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3ACE15-596C-43B2-B84C-FA21DE2E0AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80498057-8436-46F2-B276-276B700D0020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80498057-8436-46F2-B276-276B700D0020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80498057-8436-46F2-B276-276B700D0020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80498057-8436-46F2-B276-276B700D0020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECA0E1C-1DC2-472C-A5A8-9A14F2E35E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECA0E1C-1DC2-472C-A5A8-9A14F2E35E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECA0E1C-1DC2-472C-A5A8-9A14F2E35E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECA0E1C-1DC2-472C-A5A8-9A14F2E35E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908A55D8-1DC9-410A-9E15-2F96926C6786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908A55D8-1DC9-410A-9E15-2F96926C6786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908A55D8-1DC9-410A-9E15-2F96926C6786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908A55D8-1DC9-410A-9E15-2F96926C6786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2928B856-8136-40D1-BA16-B0C4D9BC7F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2928B856-8136-40D1-BA16-B0C4D9BC7F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2928B856-8136-40D1-BA16-B0C4D9BC7F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2928B856-8136-40D1-BA16-B0C4D9BC7F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62495F9B-5554-482F-BC3B-F0D6DB4BDF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62495F9B-5554-482F-BC3B-F0D6DB4BDF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62495F9B-5554-482F-BC3B-F0D6DB4BDF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62495F9B-5554-482F-BC3B-F0D6DB4BDF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54431C3-8398-486B-9C34-461A626A127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54431C3-8398-486B-9C34-461A626A127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54431C3-8398-486B-9C34-461A626A127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54431C3-8398-486B-9C34-461A626A127E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

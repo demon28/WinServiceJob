@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <InstallInfo>
+    <ServiceName value="Winner.Job.Master.WinService" />
+    <DisplayName value="Winner.Job.Master.DisplayName" />
+    <Description value="Winner.Job.Master.Description 列队0号" />
+  </InstallInfo>
+</Root>
